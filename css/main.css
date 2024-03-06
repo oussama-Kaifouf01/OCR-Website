@@ -1,0 +1,11 @@
+.firstH1 /*selector*/
+{
+    color: red; /*style*/
+    /*style atribute : value*/
+    margin-left: 90% ;
+}
+
+h1 
+{
+    color: blue;
+}
