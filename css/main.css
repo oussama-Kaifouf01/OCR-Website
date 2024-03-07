@@ -9,3 +9,27 @@ h1
 {
     color: blue;
 }
+
+
+.left
+{
+    width: 35%;
+    float: left;
+}
+
+.right
+{
+    width: 50%;
+    float: right;
+}
+
+.container
+{
+    overflow: hidden;
+}
+
+.image 
+{
+    width: 50%;
+    margin-left:30% ;
+}
