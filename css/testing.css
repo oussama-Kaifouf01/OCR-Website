@@ -1,0 +1,61 @@
+.firstH1
+
+/*selector*/
+    {
+    color: red;
+    /*style*/
+    /*style atribute : value*/
+    margin-left: 90%;
+}
+
+h1 {
+    color: blue;
+}
+
+
+.column {
+    flex: 1;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.container {
+    display: flex;
+}
+
+.image {
+    width: 50%;
+    margin-left: 30%;
+}
+
+.blue
+{
+    color:blue;
+}
+
+.red
+{
+    color: red;
+    font-weight: bold;
+    background-color: #730973;
+}
+
+.test
+{
+    background-color: #ffe100;
+}
+
+
+.colorClass
+{
+    color: red;
+    background-color: aqua;
+
+}
+
+
+.fontClass
+{
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

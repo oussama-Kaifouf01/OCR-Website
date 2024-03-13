@@ -1,35 +1,52 @@
-.firstH1 /*selector*/
+body
 {
-    color: red; /*style*/
-    /*style atribute : value*/
-    margin-left: 90% ;
+    margin: 0%;
 }
 
-h1 
+.header
 {
-    color: blue;
+    display: flex;
+    background-color: grey;
+}
+.column
+{
+    flex: 1;
 }
 
-
-.left
+.logo > img
 {
-    width: 35%;
-    float: left;
+    width: 30%;
 }
 
-.right
+.logo
 {
-    width: 50%;
-    float: right;
+    width: 15%;
+}
+
+.menu > ul> li
+{
+    display: inline-block;
+}
+
+.menu
+{
+    margin-top: 55px;
 }
 
 .container
 {
-    overflow: hidden;
+    display: flex;
+    margin-top: 30px;
 }
 
-.image 
+
+.container > .column > img
 {
-    width: 50%;
-    margin-left:30% ;
+    width: 60%;
+    margin-left: 20%;
+}
+
+main > h1
+{
+    text-align: center;
 }
